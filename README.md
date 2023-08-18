@@ -1,7 +1,7 @@
-# Video Inference Dashboard Example
+# 🤖 Video Inference Dashboard Example 
 Roboflow's inference server to analyze video streams. This project extracts insights from video frames at defined intervals and generates informative visualizations and CSV outputs.
 
-## Use Case: Smart Inventory Monitoring 📦🏭
+##  📦 Use Case: Smart Inventory Monitoring
 
 Factories & stores can:
 
@@ -10,13 +10,13 @@ Factories & stores can:
 - Restock efficiently using data.
 - Enhance operations 
 
-## Requirements
+##  ⚙️ Requirements
 
 Make sure you have docker installed. Learn more about building, pulling, and running the Roboflow Inference Docker Image in our [documentation](https://roboflow.github.io/inference/quickstart/docker/).
 
-## Installation
+## 🔍 Installation 
 
-### #1 Start inference server 
+### **#️1 Start inference server**
 x86 CPU:
 
 ```bash
@@ -27,7 +27,7 @@ NVIDIA GPU
 docker run --network=host --gpus=all roboflow/roboflow-inference-server-gpu:latest
 ```
 
-### #2 Setup and Run
+### **#2 Setup and Run**
 ```python
 git clone https://github.com/roboflow/inference-dashboard-example.git
 cd inference-dashboard-example
@@ -46,6 +46,6 @@ python main.py --dataset_id [YOUR_DATASET_ID] --api_key [YOUR_API_KEY] --video_p
 """
 ```
 
-Feedback & Contributions 🙌
+## 🦾 Feedback & Contributions
 
 Feel free to open an issue, submit a PR, or share your feedback. All contributions are welcome!
