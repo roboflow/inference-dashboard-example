@@ -12,7 +12,7 @@ Factories & stores can:
 
 ## 📈 Result 
 
-This is counting products on shelf in 5 minute intervals. Every 5 minutes, it will count how many items were visible by classes and by total numbers.
+This is counting products on shelf, every 5 minutes, categorically and in total.
 
 <a href="https://universe.roboflow.com/roboflow-ngkro/shelf-product">
     <img src="https://app.roboflow.com/images/download-dataset-badge.svg"></img>
