@@ -13,7 +13,7 @@ def parse_args():
     parser.add_argument("--version_id", default="1", help="Version ID (default: 1)")
     parser.add_argument("--api_key", help="API key (required)")
     parser.add_argument("--video_path", help="Path to the video (required)")
-    parser.add_argument("--interval_minutes", type=int, default=60, help="Interval in seconds (default: 60)")
+    parser.add_argument("--interval_minutes", type=int, default=1, help="Interval in seconds (default: 60)")
     return parser.parse_args()
 
 
@@ -98,7 +98,7 @@ def main():
         os.makedirs("results")
 
     #saving predictions response to csv
-    df.to_csv("predictions.csv", index=False)
+    df.to_csv("results/predictions.csv", index=False)
 
     # Transform timestamps to minutes and group
     df['minutes'] = df['timestamp'].str.split(':').apply(lambda x: int(x[0]) * 60 + int(x[1]))

@@ -10,13 +10,22 @@ Factories & stores can:
 - Restock efficiently using data.
 - Enhance operations 
 
+## 📈 Result 
+<br/>
+
+![alt text](./results/objects_by_class_over_time.png "Title")
+
+<br/>
+
+![alt text](./results/objects_over_time_d.png "Title")
+
 ##  ⚙️ Requirements
 
 Make sure you have docker installed. Learn more about building, pulling, and running the Roboflow Inference Docker Image in our [documentation](https://roboflow.github.io/inference/quickstart/docker/).
 
 ## 🔍 Installation 
 
-### **#️1 Start inference server**
+### **⌗ 1 Start inference server**
 x86 CPU:
 
 ```bash
@@ -27,7 +36,7 @@ NVIDIA GPU
 docker run --network=host --gpus=all roboflow/roboflow-inference-server-gpu:latest
 ```
 
-### **#2 Setup and Run**
+### **⌗ 2 Setup and Run**
 ```python
 git clone https://github.com/roboflow/inference-dashboard-example.git
 cd inference-dashboard-example
